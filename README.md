@@ -1,0 +1,1 @@
+Digital twin of the vibrations of an aluminum cantilever beam
