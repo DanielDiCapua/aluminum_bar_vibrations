@@ -1,0 +1,34 @@
+[
+    {
+        "sensorRef": "sensor_1",
+        "sensorType": "Generic sensor",
+        "topicRef": "dev2pdb_1",
+        "description": "frequency",
+        "payloadJsonSchema": {
+            "type": "object",
+            "properties": {
+                "frequency": {
+                    "type": "number",
+                    "units": "Hz",
+                    "description": "Natural frequency"
+                }
+            }
+        }
+    },
+    {
+        "sensorRef": "sensor_2",
+        "sensorType": "Generic sensor",
+        "topicRef": "dev2pdb_1",
+        "description": "Young modulus",
+        "payloadJsonSchema": {
+            "type": "object",
+            "properties": {
+                "young_modulus": {
+                    "type": "number",
+                    "units": "GPa",
+                    "description": "Young_modulus"
+                }
+            }
+        }
+    }
+]

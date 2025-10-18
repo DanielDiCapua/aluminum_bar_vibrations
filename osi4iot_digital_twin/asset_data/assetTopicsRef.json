@@ -1,0 +1,22 @@
+[
+    {
+        "topicRef": "dev2pdb_1",
+        "topicType": "dev2pdb",
+        "description": "Cantilever beam topic for frequency and Young modulus",
+        "mqttAccessControl": "Pub & Sub",
+        "payloadJsonSchema": "{}",
+        "requireS3Storage": false,
+        "s3Folder": "",
+        "parquetSchema": "{}"
+    },
+    {
+        "topicRef": "dev2pdb_2",
+        "topicType": "dev2pdb",
+        "description": "Cantilever beam Power spectral Density topic",
+        "mqttAccessControl": "Pub & Sub",
+        "payloadJsonSchema": "{}",
+        "requireS3Storage": false,
+        "s3Folder": "",
+        "parquetSchema": "{}"
+    }
+]
